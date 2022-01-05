@@ -33,7 +33,7 @@ public class BaseClass {
 	public void setExcelData() {
 		 ex=new ExcelDataProvider();	
 		 
-		 //Extent Reports
+		 //Extent Reports for reporting purpose
 		 ExtentHtmlReporter extent = new ExtentHtmlReporter(new File(System.getProperty("user.dir")+"/Reports/TestReport.html"));
 		 report=new ExtentReports();
 		 report.attachReporter(extent);   
