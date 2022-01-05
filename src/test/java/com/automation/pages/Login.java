@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class Login {
-	///POM Class
+	///POM Class for LOGIN Page
 	@FindBy(name="username")
 	private WebElement un;
 	
